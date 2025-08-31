@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+}
+
+/* Divider Line */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* Custom height */
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+/* Card / Image style */
+.login-img {
+  object-fit: cover;
+  height: 100%;
+}
+
